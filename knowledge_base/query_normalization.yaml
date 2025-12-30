@@ -1,0 +1,56 @@
+parties:
+  SPD:
+    - "SPD"
+    - "Sozialdemokratische Partei"
+    - "Sozialdemokraten"
+    - "Sozis"
+
+  CDU_CSU:
+    - "CDU"
+    - "CSU"
+    - "Union"
+    - "cdu/csu"
+    - "christdemokraten"
+
+government:
+  - "Bundesregierung"
+  - "Koalition"
+  - "Koalitionsausschuss"
+  - "Regierung"
+  - "Regierungspläne"
+  - "Regierungsplan"
+  - "Regierung plant"
+  - "Regierungsvorhaben"
+
+
+document_expectations:
+  beschluss:
+    - "beschlossen"
+    - "Beschluss"
+    - "Beschluess"
+    - "entschieden"
+    - "Beschlüsse"
+
+  vertrag:
+    - "Vertrag"
+    - "Koalitionsvertrag"
+
+  programm:
+    - "Programm"
+    - "Wahlprogramm"
+
+comparison:
+  # klare Vergleichswörter
+  - "unterschied"
+  - "vergleich"
+  - "gegen"
+  - "vs"
+
+  # Wortstämme (für Flexionen)
+  - "untersch"     # unterscheidet, unterscheiden, unterschiedlich
+  - "vergleich"    # vergleichen, vergleichbar
+
+  # typische Vergleichsphrasen
+  - "im vergleich"
+  - "unterschiede"
+  - "wie unterscheidet"
