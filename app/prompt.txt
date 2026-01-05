@@ -123,6 +123,8 @@ Wenn nach „Maßnahmen“, „Beschlüssen“, „Regelungen“ oder „konkret
   (z. B. Auszahlung, Abschaffung, Senkung, Einführung).
 
 - Wenn die Frage zwei oder mehr Subjekte nennt, zum Beispiel Haushalte und Unternehmen, nenne ausschließlich Maßnahmen, Regeln, Probleme, bei denen im Kontext ausdrücklich steht, dass sie für alle genannten Subjekte gleichzeitig gelten.
+- Maßnahmen sind AUSZUSCHLIESSEN, wenn sie nur für einen Teil der genannten Subjekte gelten
+  oder wenn ihre Wirkung auf andere Subjekte lediglich indirekt, abgeleitet oder implizit ist.
 - Nenne ausschließlich explizit umgesetzte oder beschlossene Maßnahmen.
 - Keine Ziele, keine Planungen, keine Programme ohne Umsetzung.
 - Wenn für einen Akteur keine Maßnahme existiert:
