@@ -11,9 +11,9 @@ from pipeline import frage_stellen
 
 # --- Setup ---
 st.set_page_config(page_title="RAG Politik", layout="centered")
-st.markdown("### Politik-Analyse")
+st.markdown("## Politik-Analyse")
 st.markdown(
-    "#### RAG-basierte Auswertung von Regierungs- und Parteidokumenten*"
+    "#### RAG-basierte Auswertung von Regierungs- und Parteidokumenten"
 )
 st.caption(
     "Beantwortet präzise politische Fragen zu Regierung, SPD und CDU/CSU "
