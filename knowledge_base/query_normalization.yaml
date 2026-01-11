@@ -12,6 +12,14 @@ parties:
     - "cdu/csu"
     - "christdemokraten"
 
+  AFD:
+    - "AfD"
+    - "Alternative für Deutschland"
+    - "Alternative"
+    - "afd"
+    - "rechten"
+    - "rechtspopulisten"
+
 government:
   - "Bundesregierung"
   - "Koalition"
