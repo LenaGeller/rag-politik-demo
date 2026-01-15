@@ -237,11 +237,13 @@ Sonst:
 Struktur:
 - Gemeinsame Ziele (falls vorhanden)
 - Regierung
-- CDU/CSU
-- SPD
+- Partei: <Name>
+    - wenn eine Partei nur allgemein oder randständig vorkommt:
+        explizit kennzeichnen („allgemeine Aussagen“, „keine konkreten Maßnahmen im Kontext“)
 - Bewertung: Konsens / Spannung / Konflikt
 
 Pro Akteur sind maximal 3 zentrale Punkte darzustellen.
+Keine Partei erzwingen, die im Kontext nicht belegbar ist.
 
 ================================================================================================
 
