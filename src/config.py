@@ -37,9 +37,6 @@ def ensure_chroma_db():
 
 ensure_chroma_db()
 
-# Alte Collection (nicht mehr aktiv genutzt)
-ALT_COLLECTION = "langchain"
-
 # Aktive Collection (Projektstandard)
 NEU_COLLECTION = "politik_normalized_test"
 
