@@ -35,7 +35,8 @@ if "frage" not in st.session_state:
 
 for q in example_questions:
     if st.button(q):
-        clicked_question = q
+        st.session_state.frage = q
+
 # --- Input ---
 frage = st.text_input(
     "Deine Frage:",
