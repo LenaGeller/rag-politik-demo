@@ -43,7 +43,6 @@ NEU_COLLECTION = "politik_normalized_test"
 EMBEDDING_MODEL = "text-embedding-3-large"
 CHAT_MODEL = "gpt-5-mini"
 
-TOP_K = 20
 TEMPERATURE = 0.1
 
 
