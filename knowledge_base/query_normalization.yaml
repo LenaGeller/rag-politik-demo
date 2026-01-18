@@ -28,6 +28,13 @@ parties:
     - "gruene"
     - "grünen"
 
+  LINKE:
+    - "Die Linke"
+    - "Linke"
+    - "linke"
+    - "die linke"
+    - "LINKE"
+
 government:
   - "Bundesregierung"
   - "Koalition"
