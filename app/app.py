@@ -20,7 +20,7 @@ div.stButton > button {
     padding: 0.75rem;
 }
 </style>
-""", unsafe_allow_html=True)
+""", unsafe_allow_html=True) 
 
 st.markdown(
     """
@@ -33,10 +33,6 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-st.caption(
-    "Antworten basieren ausschließlich auf offiziellen Dokumenten"
-)
-
 example_questions = [
     "Wie unterscheiden sich AfD und Grüne in der Umweltpolitik?",
     "Ist die aktuelle Steuerpolitik aus Sicht der Parteien gerecht?",
@@ -54,11 +50,17 @@ for q in example_questions:
     if st.button(q):
         st.session_state.frage = q
 
-# --- Input ---
-st.markdown("### Deine Frage")
+st.markdown("""
+<div style="margin-bottom:0.5rem;">
+    <h3 style="margin-bottom:0.25rem;">Deine Frage</h3>
+</div>
+""", unsafe_allow_html=True)
+
 frage = st.text_input(
     "",
-    key="frage"
+    key="frage",
+    placeholder="Stelle hier deine Frage an den Bundestag…"
+)
 )
 if st.button("Frage stellen"): 
     if not frage.strip(): 
