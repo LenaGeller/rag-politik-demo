@@ -61,7 +61,6 @@ frage = st.text_input(
     key="frage",
     placeholder="Stelle hier deine Frage an den Bundestag…"
 )
-)
 if st.button("Frage stellen"): 
     if not frage.strip(): 
         st.warning("Bitte gib eine Frage ein.") 
