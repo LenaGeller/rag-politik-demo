@@ -22,12 +22,17 @@ div.stButton > button {
 </style>
 """, unsafe_allow_html=True)
 
-st.markdown("## 🇩🇪 Frag den Bundestag")
 st.markdown(
-    "<div style='font-size:0.9rem; color:gray;'>(F<span style='font-weight:600'>RAG</span> den Bundestag)</div>",
+    """
+    <h2 style="margin-bottom:0.2rem;">
+        🇩🇪 Frag den <span style="color:#6b7280;">(RAG)</span> Bundestag
+    </h2>
+    <div style="color:#9ca3af; font-size:0.95rem;">
+        Antworten basieren ausschließlich auf offiziellen Dokumenten
+    </div>
+    """,
     unsafe_allow_html=True
 )
-
 st.caption(
     "Antworten basieren ausschließlich auf offiziellen Dokumenten"
 )
@@ -55,9 +60,6 @@ frage = st.text_input(
     "",
     key="frage"
 )
-
-
-
 if st.button("Frage stellen"): 
     if not frage.strip(): 
         st.warning("Bitte gib eine Frage ein.") 
